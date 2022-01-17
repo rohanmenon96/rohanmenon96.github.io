@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Issa working under cons-truction.
+          Issa working  under cons-truction.
         </p>
       </header>
     </div>
