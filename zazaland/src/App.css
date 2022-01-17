@@ -1,38 +1,579 @@
-.App {
+/* Body Styling */
+
+html, body, #homepage {
+  background: #ffde59;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
+  color: black;
+  min-height: 100vh;
+}
+
+
+/* Nav Bar Styling */
+
+#navbar {
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: #ffde59;
+  z-index: 1;
+  min-width: 800px;
+}
+
+#logo {
+  width: 65px;
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  z-index: 1000;
+}
+
+.navbar-links {
+  margin-top: 2%;
+  margin-right: 3%;
+  text-decoration: none;
+  color: black;
+  font-weight: 540;
+  float: right;
+}
+
+.navbar-links:hover {
+  color: #71eeb8;
+}
+
+
+/* Side Bar Styling */
+
+#social-links-div {
+  z-index: 1;
+  width: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 75vh;
+  margin-top: 150px;
+}
+
+.icons {
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 10%;
+  bottom: 0;
+  border-radius: 7px;
+}
+
+
+/* General Container Styling  */
+
+.containers {
+  position: absolute;
+  top: 140px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* General Component Styling  */
+
+.components {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 90%;
+  min-width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* General Text Styling */
+
+.h1 {
+  font-weight: 600;
+  font-size: 120px;
+  margin: 0px;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.h2 {
+  font-size: 60px;
+  margin: 0px;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.h2-standard {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.h3 {
+  font-size: 20px;
+  margin: 0%;
+}
+
+.h4 {
+  margin: 0%;
+}
+
+.h5 {
+  margin: 0%;
+}
+
+.p {
+  font-size: 25px;
+  margin-top: 0px;
+  font-family: prestige-elite-std, monospace;
+}
+
+.p#intro {
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* General Button Styling */
+
+
+.buttons {
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  background: black;
+  color: #ffde59;
+  width: 100px;
+  height: 50px;
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+.buttons:hover {
+  color: #71eeb8;
+  cursor: pointer;
+}
+
+.about-buttons {
+  position: absolute;
+  width: auto;
+  margin-top: 40px;
+  left: 40%;
+  outline: none;
+}
+
+.close-buttons {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 50px;
+  position: absolute;
   color: white;
+  right: 0;
+  top: 8%;
+  color: #71eeb8;
+  z-index: 4;
 }
 
-.App-link {
-  color: #61dafb;
+.expand-buttons {
+  width: 20%;
+  height: 20%;
+  min-width: 60px;
+  color: black;
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 2%;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.expand-buttons:hover {
+  color: black;
+}
+
+#get-in-touch {
+  width: 200px;
+}
+
+.small-buttons {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+/* Home Styling */
+
+#homepage {
+  min-height: 100vh;
+}
+
+#home-div {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 75%;
+}
+
+#hi-there {
+  margin-left: 10px;
+}
+
+/* About Styling */
+
+.p#about {
+  font-size: 20px;
+  text-align: justify;
+}
+
+#profile-picture {
+  width: 35%;
+  height: 35%;
+  border-radius: 10px;
+  float: right;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#photo-grid-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.photo-grid-divs {
+  display: flex;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.photo-grid-text {
+  position: absolute;
+  width: 150px;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.photo-grid-text:hover {
+  z-index: 3;
+}
+
+.photo-grid-photos {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  filter: grayscale(1.0);
+}
+
+.photo-grid-photos:hover {
+  filter: none;
+}
+
+/* Demo Styling */
+
+#projects-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-divs {
+  border-radius: 10px;
+  margin: 2%;
+  border: solid;
+  padding: 20px;
+  display: grid;
+  width: 40%;
+  min-width: 400px;
+  filter: grayscale(0.7);
+}
+
+#projects-container {
+  margin-top: 0;
+}
+
+.project-div-headers {
+  height: 10%;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.project-blurb {
+  margin: 5%;
+  height: 40%;
+}
+
+.project-screenshots {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-divs:hover {
+  background: #71eeb8;
+  cursor: pointer;
+  filter: none;
+}
+
+.project-containers {
+  padding-left: 3%;
+  margin-top: 0;
+}
+
+.show-project-container {
+  margin-top: 0px;
+}
+
+.show-project-headers {
+  margin-bottom: 3%;
+}
+
+.video-player-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+}
+
+.video-containers {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 20%;
+  background: white;
+  z-index: 5;
+}
+
+#project-github-icon {
+  width: 50%;
+  margin-left: 0;
+}
+
+
+/* Contact Styling  */
+
+.contact-icons {
+  width: 100%;
+  max-width: 70px;
+  min-width: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 7px;
+}
+
+.contact-icons:hover {
+  cursor: pointer;
+}
+
+#contact-div {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+/* Resume Styling */
+
+#resume-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.resume-divs {
+  margin: 2%;
+  width: 40%;
+  border: solid;
+  border-radius: 10px;
+  min-width: 400px;
+  min-height: 150px;
+  display: grid;
+
+}
+
+.resume-divs:hover {
+  cursor: pointer;
+  background: #71eeb8;
+}
+
+.resume-headings {
+  height: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.resume-icons {
+  width: 20%;
+  margin-left: 41%;
+  margin-bottom: 10%;
+}
+
+.resume-bullet-points-div {
+  text-align: justify;
+  margin: 5%;
+}
+
+.resume-bullet-points {
+  margin: 0.5%;
+}
+
+.full-resume-divs {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+.individual-resume-divs {
+  margin-top: 5%;
+  border: solid;
+  border-radius: 10px;
+  padding: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.individual-resume-divs:hover {
+  background: #71eeb8;
+  cursor: pointer;
+}
+
+.individual-resume-divs-headers {
+  margin-bottom: 2%;
+}
+
+.indented {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-bullet-points.indented {
+  margin-left: 5%;
+}
+
+#skills-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-divs {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 30%;
+  border: solid;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 350px;
+  min-height: 150px;
+}
+
+#PDF-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* Animation Styling  */
+
+.one-second-animation {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+.three-second-animation {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+.five-second-animation {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+.seven-second-animation {
+  animation: fadeIn ease 7s;
+  -webkit-animation: fadeIn ease 7s;
+  -moz-animation: fadeIn ease 7s;
+  -o-animation: fadeIn ease 7s;
+  -ms-animation: fadeIn ease 7s;
+}
+
+.nine-second-animation {
+  animation: fadeIn ease 9s;
+  -webkit-animation: fadeIn ease 9s;
+  -moz-animation: fadeIn ease 9s;
+  -o-animation: fadeIn ease 9s;
+  -ms-animation: fadeIn ease 9s;
+}
+
+.ten-second-animation {
+  animation: fadeIn ease 11s;
+  -webkit-animation: fadeIn ease 11s;
+  -moz-animation: fadeIn ease 11s;
+  -o-animation: fadeIn ease 11s;
+  -ms-animation: fadeIn ease 11s;
+}
+
+
+/* Key Frames */
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  40%{opacity:0}
+  100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  40%{opacity:0}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  40%{opacity:0}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  40%{opacity:0}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  40%{opacity:0}
+  100% {opacity:1;}
 }
