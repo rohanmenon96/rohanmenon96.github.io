@@ -1,7 +1,7 @@
 /* Body Styling */
 
 html, body, #homepage {
-  background: #ffde59;
+  background: #9f72c4;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -145,7 +145,7 @@ html, body, #homepage {
   font-weight: bold;
   font-size: 20px;
   background: black;
-  color: #ffde59;
+  color: #c8aee6;
   width: 100px;
   height: 50px;
   border: solid;
