@@ -6,7 +6,7 @@ function NotFound() {
   return (
 
     <div >
-      <h2> This page does not exist </h2>
+      <h2> Sorry eh, Imma still working on this one! </h2>
       <Link to='/' >
         <button className="buttons">Home</button>
       </Link>
