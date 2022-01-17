@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3bbe8ebf1801e02d64423236b2ead8b",
+    "revision": "399114da5077ddf954278d3671359c85",
     "url": "/index.html"
   },
   {
-    "revision": "b13c31fdf6286070d7a3",
+    "revision": "4c41a78e5ccf0178a14d",
     "url": "/static/css/main.51809ac1.chunk.css"
   },
   {
-    "revision": "62768684e1ec2180854f",
-    "url": "/static/js/2.e1ccf500.chunk.js"
+    "revision": "848cc2a8b91c7847c934",
+    "url": "/static/js/2.1d042c94.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/static/js/2.e1ccf500.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1d042c94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b13c31fdf6286070d7a3",
-    "url": "/static/js/main.41c4202f.chunk.js"
+    "revision": "4c41a78e5ccf0178a14d",
+    "url": "/static/js/main.cab2ac63.chunk.js"
   },
   {
     "revision": "7676694dcb083d5d6b63",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "00b368c2c785ad87470abc0fd883c424",
     "url": "/static/media/bodega-bay.3756a185.jpeg"
-  },
-  {
-    "revision": "a20c8e35aea0c912ce310edc8636db74",
-    "url": "/static/media/dev.to-icon.a20c8e35.svg"
   },
   {
     "revision": "286ccc456ea700a27549a17b955f87e2",
@@ -82,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6d56df8409d1d0a08d23d290bf04ec3",
     "url": "/static/media/linkedin-icon.c6d56df8.svg"
-  },
-  {
-    "revision": "b001f73bdbe60a69cc9bd3896060983e",
-    "url": "/static/media/medium-icon.9c00f291.png"
   },
   {
     "revision": "d252b2d1a25f883ff11b12268ac15707",
