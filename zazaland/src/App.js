@@ -5,7 +5,7 @@ import AboutContainer from './containers/AboutContainer'
 import HomeContainer from './containers/HomeContainer'
 import ProjectsContainer from './containers/ProjectsContainer'
 import ResumeContainer from './containers/ResumeContainer'
-import Contact from './containers/ContactContainer'
+import EducationContainer from './containers/EducationContainer'
 import NotFoundContainer from './containers/NotFoundContainer';
 
 class App extends React.Component {
@@ -60,10 +60,10 @@ class App extends React.Component {
   
         <Switch>
           <Route exact path='/' component={HomeContainer} />
-          {/* <Route exact path='/about' component={this.renderAboutContainer} />
-          <Route exact path='/projects' component={this.renderProjectsContainer} />
-          <Route exact path='/resume' component={this.renderResumeContainer} />
-          <Route exact path='/contact' component={Contact} /> */}
+          {/* {/* <Route exact path='/about' component={this.renderAboutContainer} /> */}
+          {/* <Route exact path='/projects' component={this.renderProjectsContainer} />
+          <Route exact path='/resume' component={this.renderResumeContainer} /> */}
+          <Route exact path='/education' component={EducationContainer} />
           <Route component={NotFoundContainer}/>
         </Switch>
   
