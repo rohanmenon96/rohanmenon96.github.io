@@ -42,9 +42,6 @@ class App extends React.Component {
           <a href="https://www.linkedin.com/in/rohan-menon96" rel="noopener noreferrer" target="_blank" >
             <img src={require("./media/linkedin-icon.svg")} alt='' className="icons" />
           </a><br></br>
-          <a href={`mailto:rmenon3@stevens.edu@gmail.com`} >
-            <img src={require("./media/send.png")} alt='' className="icons" />
-          </a>
         </div>     
   
         <Switch>
