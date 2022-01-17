@@ -1,5 +1,5 @@
 import React from 'react';
-import Education from '../components/Education'
+import Education from '../components/EducationI'
 import Skills from '../components/Skills'
 import VolunteerExperience from '../components/VolunteerExperience'
 import WorkExperience from '../components/WorkExperience'
