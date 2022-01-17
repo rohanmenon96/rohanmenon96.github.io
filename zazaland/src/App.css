@@ -9,7 +9,7 @@ html, body, #homepage {
   text-align: center;
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
   color: black;
-  min-height: 100vh;
+  max-height: 50vh;
 }
 
 
@@ -20,7 +20,7 @@ html, body, #homepage {
   position: fixed;
   width: 100%;
   top: 0px;
-  background: #ffde59;
+  background: #e3e4eb;
   z-index: 1;
   min-width: 800px;
 }
@@ -210,7 +210,7 @@ html, body, #homepage {
 /* Home Styling */
 
 #homepage {
-  min-height: 100vh;
+  max-height: 50vh;
 }
 
 #home-div {

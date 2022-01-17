@@ -34,7 +34,18 @@ class App extends React.Component {
 
     return (
       <div id="homepage">
-  
+
+        {/* <div id="navbar">   
+          <NavLink to='/' exact className="navbar-links" >
+              <img src={require("./media/logo.png")} alt='' id="logo" />
+          </NavLink>     
+          <NavLink to='/contact' exact className="navbar-links" >Contact</NavLink>
+          <NavLink to='/about' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >About</NavLink>
+          <NavLink to='/resume' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >Résumé</NavLink>
+          <NavLink to='/projects' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >Projects</NavLink>
+          <NavLink to='/' exact className="navbar-links" >Home</NavLink>
+        </div > */}
+
         <div id="social-links-div">
           <a href="https://github.com/rohanmenon96" rel="noopener noreferrer" target="_blank" >
             <img src={require("./media/github-icon.svg")} alt='' className="icons" />
@@ -49,6 +60,11 @@ class App extends React.Component {
   
         <Switch>
           <Route exact path='/' component={HomeContainer} />
+          <Route exact path='/about' component={this.renderAboutContainer} />
+          <Route exact path='/projects' component={this.renderProjectsContainer} />
+          <Route exact path='/resume' component={this.renderResumeContainer} />
+          <Route exact path='/contact' component={Contact} />
+          <Route component={NotFound}/>
         </Switch>
   
       </div>
