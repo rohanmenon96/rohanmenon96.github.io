@@ -5,10 +5,14 @@ function EducationContainer() {
 
   return (
 
-    <div className="containers one-second-animation" >
+    <div className="one-second-animation" >
+
+      <div className="containers" id="projects-container" >
         <h2 className="h2" >Education</h2>
-        <Education />
-    </div>
+        <Education/>
+      </div>
+
+  </div>
     
   );
   

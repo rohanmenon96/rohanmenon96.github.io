@@ -42,7 +42,7 @@ class App extends React.Component {
           <NavLink to='/contact' exact className="navbar-links" >Contact</NavLink>
           <NavLink to='/extracurricular' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >Extracurricular</NavLink>
           <NavLink to='/workEx' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >Work Experience</NavLink>
-          <NavLink to='/education' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >Education</NavLink>
+          <NavLink to='/education' exact className="navbar-links" onClick={this.handleForceUpdateTrue} >Academics</NavLink>
           <NavLink to='/' exact className="navbar-links" >Home</NavLink>
         </div >
 
