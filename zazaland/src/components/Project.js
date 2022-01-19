@@ -15,33 +15,37 @@ function Project(props) {
 
     <div className="components" id="projects-grid">
 
-      <div className="project-divs" id="AlwaysBalanced" onClick={handleGetName} >
-        <h2 className="project-div-headers" id="AlwaysBalanced" >Always Balanced</h2>
-        <p className="project-blurb" id="AlwaysBalanced" >Always Balanced is a React and Redux Application, with a Rails backend which allows users to create a personalised schedule with the aim of helping them to better balance their work and home life.</p>
+      <div className="project-divs" id="AlwaysBalanced" >
+        <h2 className="project-div-headers" id="AlwaysBalanced" ><img src={require("../media/glogo.svg")} alt='' className="workExicons-g" /></h2>
+        <h3>Software Engineer</h3>
+       TCS at Google, Mountain View
+       <i>March 2021 - Present</i>
+        <p className="project-blurb" id="AlwaysBalanced" ><ul><li>Created and deployed the entire framework of the KPI Index Monitoring Tool with Java, SQL and PLX CI/CD pipelines  which replaced the manual data entry process, saving around 10% of the resource’s daily time and effort
+        </li><br/><li>Currently working on the server side rendering of a new UI Renderer which would help Google to  render search features faster using real time HTML and JSLayout generation using Java
+        </li></ul>
+        </p>
         <img src={require("../media/always-balanced-screenshot.png")} alt='' className="project-screenshots" id="AlwaysBalanced" />
       </div>
 
-      <div className="project-divs" id="FruitQuest" onClick={handleGetName} >
-        <h2 className="project-div-headers" id="FruitQuest" >Fruit Quest</h2>
-        <p className="project-blurb" id="FruitQuest" >Fruit Quest is a game application created using a Rails backend and React frontend, in combination with the Phaser 3 game engine. The aim of the game is to collect as many pieces of fruit as possible. </p>
-        <img src={require("../media/fruit-quest-screenshot.png")} alt='' className="project-screenshots" id="FruitQuest" />
-      </div>
-
-      <div className="project-divs" id="NFPH" onClick={handleGetName} >
-        <h2 className="project-div-headers" id="NFPH" >Neurofibromatosis Personalized Health</h2>
-        <p className="project-blurb" id="NFPH" >Neurofibromatosis Personalized Health is a symptom tracker application, created using a Rails backend and React frontend, for patients with NF2 created as part of the Children's Tumor Foundation Hack for NF.</p>
-        <img src={require("../media/nfph-screenshot.png")} alt='' className="project-screenshots" id="NFPH" />
-      </div>
-
-      <div className="project-divs" id="Gandr" onClick={handleGetName} >
-        <h2 className="project-div-headers" id="Gandr" >Gandr</h2>
-        <p className="project-blurb" id="Gandr" >Gandr is a JavaScript Single Page Application, with a Rails backend which allows users to browse a range of beautiful artworks from the Metropolitan Museum of Art, and to add comments and likes to their favorite pieces.</p>
-        <img src={require("../media/gandr-screenshot.png")} alt='' className="project-screenshots" id="Gandr" />
+      <div className="project-divs" id="AlwaysBalanced" >
+        <h2 className="project-div-headers" id="AlwaysBalanced" ><img src={require("../media/aws_logo.svg")} alt='' className="workExicons" /></h2>
+        <h3>Software Development Engineer Intern</h3><br/>
+        Amazon Web Services, Seattle<br/><br/>
+        <i>June 2019 - August 2019</i>
+        <p className="project-blurb" id="AlwaysBalanced" >
+          <ul>
+          <li>Researched, designed and developed the  Offer String Creation BI tool - which was a streamlined microservice made using Spring Boot, ReactJS and DynamoDB for the Twitch Prime Team at AWS
+          </li><li>Leveraged an intermediate GraphQL serving to improve the run-time eﬃciency of the system 
+          </li><li>Collaborated with the Dev-Ops and Business Intelligence Team to build an end-to-end framework using AWS for creating and deploying an oﬀer; everything on AWS - significantly increasing  the speed of the offer creation system
+          </li>
+          </ul>
+        </p>
+        <img src={require("../media/always-balanced-screenshot.png")} alt='' className="project-screenshots" id="AlwaysBalanced" />
       </div>
 
       <div className="project-divs">
         <h2 className="project-div-headers">See more on GitHub</h2>
-        <a href="https://github.com/iona-b" rel="noopener noreferrer" target="_blank" >
+        <a href="https://github.com/rohanmenon96" rel="noopener noreferrer" target="_blank" >
           <img src={require("../media/github-icon.svg")} alt='' className="icons" id="project-github-icon" />
         </a>
       </div>

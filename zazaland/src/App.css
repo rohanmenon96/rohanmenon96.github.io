@@ -53,6 +53,7 @@ html, body, #homepage {
 /* Side Bar Styling */
 
 #social-links-div {
+  position: fixed;
   z-index: 1;
   width: 50px;
   display: flex;
@@ -67,6 +68,15 @@ html, body, #homepage {
   margin-bottom: 10%;
   bottom: 0;
   border-radius: 7px;
+}
+
+.workExicons {
+  width: 50%;
+}
+
+.workExicons-g {
+  width: 33%;
+  height: 16vh;
 }
 
 
@@ -327,7 +337,6 @@ html, body, #homepage {
 
 .project-divs:hover {
   background: #71eeb8;
-  cursor: pointer;
   filter: none;
 }
 

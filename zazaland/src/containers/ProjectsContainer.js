@@ -35,7 +35,7 @@ class ProjectsContainer extends React.Component{
 
         {this.state.currentlyShowing === "None" ? 
           <div className="containers" id="projects-container" >
-            <h2 className="h2" >Projects</h2>
+            <h2 className="h2" >Work Experience</h2>
             <Project handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
           :
